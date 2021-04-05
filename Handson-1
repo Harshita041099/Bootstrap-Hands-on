@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>01.Bootstrap | Handson</title>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary text-white bg-dark">hTrack</nav>
+
+    <div class="row">
+        <div class="col-sm-10" id="id1" style="background-color: rgb(204, 221, 203)">
+            <h2>Benefits</h2>
+            <ul>
+                <li>Set goals</li>
+                <li>Recieved Customized Notifications</li>
+                <li>Get tips from experts and coaches</li>
+            </ul>
+        </div>
+        <div class="col-sm-2" style="background-color:rgb(221,204,222)">
+            <h2>Login</h2>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
